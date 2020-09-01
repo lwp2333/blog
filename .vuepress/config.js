@@ -59,7 +59,7 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/docs/H5/': ['', 'utils', 'plugin', 'api']
+      '/docs/H5/': ['', 'layouts', 'loading', 'axios', 'utils']
     },
     type: 'blog',
     blogConfig: {
