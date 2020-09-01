@@ -1,6 +1,6 @@
 module.exports = {
   title: ' ',
-  description: 'blog.lwp.fun',
+  description: '能被Js改写的终将被Js改写！',
   dest: 'public',
   head: [
     [
@@ -41,8 +41,8 @@ module.exports = {
         icon: 'reco-message',
         items: [
           {
-            text: 'vuepress-reco',
-            link: '/docs/theme-reco/'
+            text: 'H5项目基本架构',
+            link: '/docs/H5/'
           }
         ]
       },
@@ -59,7 +59,7 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/docs/theme-reco/': ['', 'theme', 'plugin', 'api']
+      '/docs/H5/': ['', 'utils', 'plugin', 'api']
     },
     type: 'blog',
     blogConfig: {
@@ -84,7 +84,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: 'Last Updated',
-    author: 'lwp2333',
+    author: '枯木逢春',
     authorAvatar: '/avatar.png',
     record: '赣ICP备18004347号-1',
     startYear: '2019'

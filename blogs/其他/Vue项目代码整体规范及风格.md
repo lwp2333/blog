@@ -2,7 +2,7 @@
 title: Vue项目代码整体规范及风格
 date: 2019-12-28
 categories:
-  - 代码规范
+  - 其他
 tags:
   - vue
 ---
@@ -193,7 +193,7 @@ $darkColor: '#000';
 
 ## 5.关于经常使用到的表格页面
 
-#### 1.动态定位在页面右下的分页（tableHeight 的 mixins）
+### 1.动态定位在页面右下的分页（tableHeight 的 mixins）
 
 ```js
 export const tableHeight = topHeight => {
@@ -226,7 +226,7 @@ export const tableHeight = topHeight => {
 }
 ```
 
-#### 2.配合样式使用
+### 2.配合样式使用
 
 ```vue
 <!--  template -->
