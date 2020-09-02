@@ -1,17 +1,17 @@
 ---
-title: loading
+title: loading动画
 date: 2020-05-27
 ---
 
-# 1.效果
+## 1.效果
 
 ![](https://kumufengchun.oss-cn-hangzhou.aliyuncs.com/H5%28loading%29.gif)
 
 
 
-# 2.代码
+## 2.代码
 
-## 1.index.vue
+### 1.index.vue
 
 ```vue
 <template>
@@ -64,7 +64,7 @@ export default {
 </style>
 ```
 
-## 2.index.js
+### 2.index.js
 
 使用 Vue.extend 构造器，创建一个“子类” (Loading)
 
@@ -117,7 +117,7 @@ import myLoading from './components/loading/index'
 Vue.use(myLoading, { text: '加载中...' }) // 配置加载动画文字为： 加载中...
 ```
 
-# 4.页面中使用
+## 4.页面中使用
 
 ```js
       this.$myLoading.show() // 打开loading

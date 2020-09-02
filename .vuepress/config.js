@@ -38,7 +38,7 @@ module.exports = {
       },
       {
         text: '小册',
-        icon: 'reco-message',
+        icon: 'reco-suggestion',
         items: [
           {
             text: 'H5项目基本架构',
@@ -59,7 +59,7 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/docs/H5/': ['', 'layouts', 'loading', 'axios', 'utils']
+      '/docs/h5/': ['', 'layouts', 'loading', 'axios', 'utils']
     },
     type: 'blog',
     blogConfig: {
