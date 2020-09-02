@@ -42,7 +42,7 @@ module.exports = {
         items: [
           {
             text: 'h5项目基本架构',
-            link: '/docs/h5/'
+            link: '/docs/H5/'
           }
         ]
       },
@@ -59,7 +59,7 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/docs/h5/': ['', 'layouts', 'loading', 'axios', 'utils']
+      '/docs/H5/': ['', 'layouts', 'loading', 'axios', 'utils']
     },
     type: 'blog',
     blogConfig: {
