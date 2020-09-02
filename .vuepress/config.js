@@ -41,8 +41,8 @@ module.exports = {
         icon: 'reco-suggestion',
         items: [
           {
-            text: 'H5项目基本架构',
-            link: '/docs/H5/'
+            text: 'h5项目基本架构',
+            link: '/docs/h5/'
           }
         ]
       },
