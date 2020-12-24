@@ -16,6 +16,13 @@ module.exports = {
         name: 'viewport',
         content: 'width=device-width,initial-scale=1,user-scalable=no'
       }
+    ],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "枯木逢春, lwp.fun, blog.lwp.fun, lwp2333",
+      },
     ]
   ],
   theme: 'reco',
