@@ -93,7 +93,8 @@ module.exports = {
     lastUpdated: 'Last Updated',
     author: '枯木逢春',
     authorAvatar: '/avatar.png',
-    record: '赣ICP备18004347号-1',
+    record: '备案号：赣ICP备18004347号-1',
+    recordLink: 'https://beian.miit.gov.cn/',
     startYear: '2019'
   },
   markdown: {
